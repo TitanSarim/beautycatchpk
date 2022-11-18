@@ -1,0 +1,474 @@
+.Product-container{
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 6vmax;
+}
+
+
+.carousel{   
+    width: 35% !important; 
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ====== issue */
+.css-ohwg9z{
+    height: max-content;
+    width: 500px;
+}
+/* .css-1m9128y{
+    position: relative;
+    top: 730px;
+    z-index: 100;
+}    */
+
+.css-1g04gm2-MuiButtonBase-root-MuiIconButton-root{
+    background-color: white !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    color: black;
+}
+
+.css-1m9128y button {
+    color: black;
+}
+
+.img-carosal{
+    height: 100%;
+    width: 100%; 
+    border-radius: 5px;
+}
+/* ====== issue end */
+.detailsBlock{
+    width: 50% !important;
+    position: relative;
+    margin-top: 170px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    bottom: 130px !important;
+}
+
+.detailsBlock-2{
+    position: relative;
+
+}
+
+.detailsBlock-2 h2{
+    font-size: 30px;
+    color: #273746;
+    text-transform: uppercase;
+}   
+
+.detailsBlock-2 p{
+    opacity: 50%;
+}
+
+.detailsBlock-3{
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.reviews-blacok{
+    position: relative;
+    top: 3px;
+}
+
+.detailsBlock-4{
+    position: relative;
+    color: red;
+    font-size: 13px;
+}
+
+.detailsBlock-4-1{
+    position: relative;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detailsBlock-4-1 button{
+    width: 160px;
+    position: relative;
+    margin-top: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #273746;
+    color: white;
+    font-size: 18px;
+    transition: transform 500ms;
+}
+
+.detailsBlock-4-1 button:hover{
+    transform: translateY(-2px);
+    background-color: #1c2732;
+}
+
+.detailsBlock-4-2{
+    border: 1px solid #273746;
+    border-radius: 2px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.detailsBlock-4-2 button{
+    background-color: white;
+    border: none;
+    padding: 0 14px;
+    font-size: 23px;
+    margin: 4px;  
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+
+.minus{
+    color: red !important;
+    font-size: 30px !important;
+    background-color: transparent !important;
+
+}
+
+.minus:hover{
+    color: red !important;
+    background-color: transparent !important;
+
+}
+
+.plus{
+    color: black !important;
+    background-color: transparent !important;
+}
+
+.plus:hover{
+    background-color: transparent !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.InStock{
+    color: green;
+}
+
+.OutOfStock{
+    color: red;
+}
+
+.detailsBlock-4-2 input{
+    position: relative;
+    width: 50px;
+    height: 38px;
+    border: none;
+    font-weight: 500;
+    font-size: 19px;
+    outline: none;
+    text-align: center;
+}
+
+.detailsBlock-4 > p{
+
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.detailsBlock-5{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.detailsBlock-5 span{
+    font-size: 22px;
+    font-weight: 600;
+    color: #273746;
+}
+
+.detailsBlock-5 p{
+    color: #273746;
+    width: 80%;
+}
+
+.submit-review{
+    position: relative;
+    top: 50px;
+    width: 230px;
+    padding: 17px 13px;
+    background-color: #273746;
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 2px;
+    transition: transform 500ms;
+    cursor: pointer;
+}
+
+.submit-review:hover{
+    background-color: #1c2732;
+    transform:translateY(-3px);
+}
+
+/* review dialogue box */
+.submitdialog{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+.dialogbox-textarea{
+    position: relative;
+    padding: 1rem;
+    margin: 1vmax 0;
+    outline: none;
+    color: #273746;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+
+.Allreviews{
+    position: relative;
+    padding-bottom: 7px;
+    text-align: center;
+    color: #273746 ;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 70px !important;
+    border-bottom: 4px solid tomato;
+    width: 120px;
+}
+
+
+
+.allreview-card{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px ;
+}
+
+.allreview-card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.allreview-card2 img{
+    width: 5%;
+}
+
+.allreview-card2 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #273746;
+}
+
+.review-comment{
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.no-reviews{
+    position: relative;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #273746 ;
+    font-size: 20px;
+}
+
+/* ============================================= */
+/* ============================================== */
+
+@media screen and (max-width: 1147px){
+    .css-ohwg9z{
+        height: max-content;
+        width: 500px;
+    }
+
+    .detailsBlock{
+        top: -60px;
+    }
+}
+
+@media screen and (max-width: 1090px){
+
+    .css-ohwg9z{
+        height: max-content;
+        width: 600px;
+    }
+
+    .detailsBlock{
+        top: -50px;
+    }
+}
+
+@media screen and (max-width: 960px){
+
+    .carousel{
+        width: 40%;
+    }
+    .css-ohwg9z{
+        height: max-content;
+        width: 600px;
+    }
+
+    .detailsBlock{
+        top: -30px;
+    }
+}
+
+@media screen and (max-width: 940px){
+
+    .Product-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .carousel{
+        height: 100%;
+        width: 70% !important;
+    }
+
+    .carousel img{
+        width: 100%;
+    }
+
+    .css-ohwg9z{
+        height: auto !important;
+        width: 70% !important;
+
+    }
+
+    .detailsBlock{
+        top: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0%;
+        left: 0%;
+    }
+
+    .detailsBlock-2 h2{
+        text-align: center;
+    }
+    .detailsBlock-2 p{
+        text-align: center;
+    }
+
+    .detailsBlock-3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .detailsBlock-4{
+        text-align: center;
+    }
+
+    .Allreviews{
+        margin-top: 12vmax;
+    }
+
+}
+
+
+@media screen and (max-width: 695px){
+
+    .carousel{
+        height: 100%;
+        width: 80% !important;
+    }
+
+    .css-ohwg9z{
+        height: auto !important;
+        width: 70% !important;
+
+    }
+}
+
+@media screen and (max-width: 585px){
+
+    .carousel{
+        height: 100%;
+        width: 85% !important;
+    }
+
+    .css-ohwg9z{
+        height: auto !important;
+        width: 75% !important;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .carousel{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 100%;
+        width: 94% !important;
+        margin: 0 !important;
+    }
+
+    .css-ohwg9z{
+        height: auto !important;
+        width: 83% !important;
+
+    }
+}
+
+@media screen and (max-width: 420px){
+
+    .carousel{
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        height: 100%;
+        width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .css-ohwg9z{
+        height: auto !important;
+        width: 94% !important;
+
+    }
+}

@@ -1,0 +1,437 @@
+.confirm-order{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.confirm-address-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 47%;    
+}
+
+/*  */
+
+.confirm-address-wrapper{
+    position: relative;
+    color: #273746 
+}
+
+.confirm-shipping-info-heading{
+    font-family: 'Montserrat Alternates', sans-serif ;
+    font-weight: 600;
+    color: #273746 ;
+    font-size: 26px;
+    margin-bottom: 20px ;
+    border-bottom: 3px solid tomato;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.confirm-address-name{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.confirm-address-name p{
+    font-weight: 600;
+}
+
+.confirm-address-phone {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-address-phone p{
+    font-weight: 600;
+}
+
+.confirm-address-address{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-address-address p{
+    font-weight: 600;
+}
+
+.confirm-address-city{ 
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-address-city p{
+    font-weight: 600;
+}
+
+.confirm-address-state {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-address-state p{
+    font-weight: 600;
+}
+
+.confirm-address-country {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-address-country p{
+    font-weight: 600;
+}
+
+.confirm-address-zipcode{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-address-zipcode p{
+    font-weight: 600;
+}
+
+/*  */
+
+.confirm-shipping-heading{
+    font-family: 'Montserrat Alternates', sans-serif ;
+    font-weight: 600;
+    color: #273746 ;
+    font-size: 26px;
+    margin-bottom: 20px ;
+    border-bottom: 3px solid tomato;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.confirm-cart-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.confirm-cart-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 130px;
+}
+
+
+.confirm-cart-product-detail{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.confirm-cart-product-detail img{
+    position: relative;
+    display: flex;
+    width: 120px;
+    padding: 20px 0px;
+}
+
+
+.confirm-cart-product-name{
+    text-decoration: none;
+    color: #273746;
+    font-size: 18px;
+}
+
+.confirm-cart-product-name:hover{
+    color: tomato;
+}
+
+.confirm-cart-wrapper span{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+
+.confirm-cart-wrapper span b{
+    color: green;
+}
+
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+/* ===================================================================================== */
+
+/* order summary */
+.confirm-order-summary-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirm-order-summary-container h2{
+    font-family: 'Montserrat Alternates', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 26px !important;
+    color: #273746 !important;
+    border-bottom: 3px solid tomato;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.confirm-order-summary-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* border-left: 3px solid tomato; */
+    padding-left: 30px;
+}
+
+.confirm-order-summary-bill{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.confirm-order-summary-subprice{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-order-summary-subprice p{
+    font-weight: 600;
+}
+
+.confirm-order-summary-shippingharges{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-order-summary-shippingharges p{
+    font-weight: 600;
+}
+
+.confirm-order-summary-tax{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 2px solid #273746;
+}
+
+.confirm-order-summary-tax p{
+    font-weight: 600;
+}
+
+.confirm-order-summary-totalprice{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.confirm-order-summary-totalprice span{
+    color: green;
+    font-weight: 500;
+}
+
+.confrim-to-payment{
+    background-color: #273746;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    font-size: 18px;
+    padding: 0.8vmax 4vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 500ms;
+    width: 350px;
+    height: 60px;
+}
+
+.confrim-to-payment:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+}
+
+
+
+/* =============================== */
+/* =============================== */
+
+
+@media screen and (max-width: 1100px){
+    .confirm-cart-wrapper{
+        width: 800px;
+    }
+}
+
+
+@media screen and (max-width: 980px){
+
+
+    .confirm-order{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .confirm-address-container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .confirm-shipping-info-heading{
+        width: 100%;
+        text-align: center;
+    }
+
+    .confirm-shipping-heading{
+        width: 290px;
+        text-align: center;
+    }
+
+    .confirm-cart-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .confirm-cart-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .confirm-order-summary-container h2{
+        text-align: center;
+        width: 330px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 806px){
+
+    .confirm-cart-wrapper{
+        gap: 50px;
+    }
+
+}
+
+@media screen and (max-width: 801px){
+    .confirm-cart-wrapper{
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 680px){
+    .confirm-cart-wrapper{
+        width: 500px;
+    }
+    .confirm-shipping-heading{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+    .confirm-shipping-heading{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 504px){
+    .confirm-cart-wrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 50px;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 492px){
+
+    .confirm-shipping-heading{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 438px){
+
+    .confirm-order-summary-container h2{
+        width: 300px;
+    }
+
+    .confirm-order-summary-tax{
+        width: 280px;
+    }
+
+    .confrim-to-payment{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       width: 310px;
+       left: -14px;
+    }
+
+}
+
+@media screen and (max-width: 410px){
+    .confirm-cart-wrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 50px;
+        gap: 40px;
+    }
+
+    .confirm-cart-product-detail{
+        display: flex;
+        flex-direction: column;
+    }
+}

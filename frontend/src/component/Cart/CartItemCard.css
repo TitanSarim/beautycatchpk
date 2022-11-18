@@ -1,0 +1,123 @@
+.carditem-card{
+    position: relative;
+    display: flex;
+    padding: 1vmax;
+    height: 1vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.carditem-card img{
+    width: 5vmax;
+}
+
+.carditem-card div{
+    display: flex;
+    margin: 0.3vmax 1vmax;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.carditem-card div a{
+    color: #273746;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.carditem-card div span{
+    color: #273746;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+.carditem-card div span b{
+    color: rgb(39, 192, 39);
+    font-weight: 500;
+}
+
+.carditem-card div p{
+    color: tomato;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 500ms;
+}
+
+.carditem-card div p:hover{
+    color: rgb(255, 79, 48);
+    transform: scale(1.03);
+}
+
+/* if no product */
+.cart-emptycart{
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #273746;
+}
+
+.cart-emptycart span{
+    color: tomato !important;
+}
+.cart-toproducts{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(27, 38, 49);
+    padding: 14px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.cart-toproducts:hover{
+    transform: scale(1.05);
+    background-color: tomato;
+}
+
+
+/* ============================================= */
+/* ============================================= */
+
+
+@media screen and (max-width: 1210px){
+
+    
+    .carditem-card img{
+        width: 100px;
+    }
+
+} 
+
+
+
+@media screen and (max-width: 638px){
+
+    
+    .carditem-card img{
+        width: 100px;
+    }
+
+} 
+
+@media screen and (max-width: 420px){
+    .carditem-card img{
+        margin-top: 3vmax;
+        width: 70px;
+    }
+
+    .carditem-card div{
+        margin: 3vmax 0.3vmax;
+        gap: 1px;
+    }
+    .carditem-card div a{
+        font-size: 1rem;
+    }
+
+}
+

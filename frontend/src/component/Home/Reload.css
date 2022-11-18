@@ -1,0 +1,15 @@
+.reload-btn button{
+    position: relative;
+    border: none;
+    background-color: transparent;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 500ms;
+}
+
+.reload-btn button:hover{
+    transform: scale(1.03);
+    color: tomato;
+}

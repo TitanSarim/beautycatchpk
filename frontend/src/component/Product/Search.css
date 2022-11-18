@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400;500;600;700;800&display=swap');
+
+.SearchBox{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    position: relative;
+    top: 4px;
+    left: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.SearchBox > input[type="text"]{
+    position: relative;
+    width: 400px;
+    height: 33px;
+    outline: none;
+    border: none;
+    top: -200px;
+    border-radius: 3px;
+    padding: 10px 14px;
+    font-size: 17px;
+    transition: transform 500ms;
+    -webkit-box-shadow: -1px 1px 5px -1px rgba(54, 54, 54, 0.75);
+-moz-box-shadow: -1px 1px 5px -1px rgba(54, 54, 54, 0.75);
+box-shadow: -1px 1px 5px -1px rgba(54, 54, 54, 0.75);
+}
+
+
+.SearchBox > input[type="submit"]{
+    position: relative;
+    width: 130px;
+    height: 55px;
+    top: -200px;
+    outline: none;
+    padding: 10px 14px;
+    background-color: rgb(99, 116, 240);
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    transition: transform 500ms;
+}
+
+.SearchBox > input[type="submit"]:hover{
+    transform: translateY(-2px);
+    background-color: tomato;
+}
+
+
+@media screen and (max-width: 569px){
+    .SearchBox{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .SearchBox > input[type="text"]{
+        border-radius: 24px;
+        top: -130px;
+    }
+
+    .SearchBox > input[type="submit"]{
+        border-radius: 24px;
+        top: -130px;
+        background-color: #273746;
+        transition: all 500ms;
+    }
+
+    .SearchBox > input[type="submit"]:hover{
+        transform: scale(10.5);
+        background-color: tomato;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .SearchBox > input[type="text"]{
+        width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 486px){
+
+    .SearchBox > input[type="text"]{
+        width: 300px;
+    }
+
+}

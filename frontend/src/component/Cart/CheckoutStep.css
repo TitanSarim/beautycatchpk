@@ -1,0 +1,49 @@
+.steps{
+    position: relative;
+    margin-top: 90px;   
+}
+
+.MuiStepConnector-root{
+    height: 1px;
+    background-color: black;
+}
+
+.MuiStepConnector-active, .MuiStepConnector-completed{
+    background-color: tomato;
+}
+
+.steptypo{
+    font-family: 'Montserrat Alternates', sans-serif !important; 
+    font-size: 18px !important;
+}
+
+
+
+/* ============================ */
+
+@media screen and (max-width: 512px){
+    .steptypo{
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .steptypo{
+        font-size: 15px !important;
+    }
+}
+
+
+@media screen and (max-width: 438px){
+    .steptypo{
+        font-size: 14px !important;
+    }
+}
+
+
+@media screen and (max-width: 406px){
+    .steptypo{
+        font-size: 13px !important;
+        width: 100%;
+    }
+}

@@ -1,0 +1,397 @@
+.loginsign-container{
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    left: 0;
+}
+
+
+/* signupform */
+.signupForm{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 50px;
+    justify-content: center;
+    transform: translateY(-100%) translateX(-100vmax);
+}
+
+.signUpName, .signUpEmail, .signUpPassword{
+    position: relative;
+    color: #eb7435;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #273746;
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    gap: 12px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.signUpName:hover, .signUpEmail:hover, .signUpPassword:hover{
+    transform: scale(1.05);
+    border-bottom: 1px solid tomato;
+}
+
+
+.signUpName input{
+    color: #273746;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    height: 100%;
+}
+
+.signUpEmail input{
+    color: #273746;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    height: 100%;
+}
+
+.signUpPassword input{
+    color: #273746;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    height: 100%;
+}
+
+#registerImage{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 350px;
+    color: white;
+}
+
+#registerImage img{
+    width: 20%;
+    height: 56px;
+    border-radius: 100%;
+}
+
+#registerImage input{
+    position: relative;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#registerImage > input::file-selector-button{
+    position: relative;
+    margin: 0%;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    z-index: 2;
+    height: 5vh;
+    background-color: #273746;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: transform 500ms;
+}
+
+#registerImage > input::file-selector-button:hover{
+    transform: scale(1.05);
+    background-color: tomato;
+    color: white;
+}
+
+.signupForm > input{
+    background-color: #273746;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 350px;
+    transition: transform 500ms;
+}
+
+.signupForm > input:hover{
+    transform: scale(1.05);
+    background-color: tomato;
+    color: white;
+}
+
+/* ================================================== */
+/* move able toggle */
+
+.loginsign-box{
+    position: relative;
+    background-color: transparent;
+    width: 450px;
+    height: 700px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.login-signUp-toggle{
+    position: relative;
+    display: flex;
+    height: 58px;
+    background-color: transparent;
+}
+
+.login-signUp-toggle p{
+    color: white;
+    background-color: #273746;
+    height: 50px;
+    transition: all 0.5s;
+    font-size: 20px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+.login-signUp-toggle p:hover{
+    color: tomato;
+}
+
+.loginsign-box > div > button{
+    background-color: tomato;
+    height: 5px;
+    margin: auto;
+    width: 50%;
+    border: none;
+    transition: all 0.5s;
+}
+
+
+/* ============================================ */
+/* login form */
+.loginform{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+
+.loginEmail{
+    position: relative;
+    color: #eb7435;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1px solid #273746;
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    gap: 12px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.loginEmail:hover{
+    transform: scale(1.06);
+    border-bottom: 1px solid tomato;
+}
+
+.loginEmail input{
+    color: #273746;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    height: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.loginPassword{
+    position: relative;
+    color: #eb7435;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #273746;
+    justify-content: flex-start;
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    gap: 12px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.loginPassword:hover{
+    transform: scale(1.06);
+    border-bottom: 1px solid tomato;
+}
+
+.loginPassword input{
+    color: #273746;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.forgot-password{
+    position: relative;
+    color: red;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+.forgot-password:hover{
+    color: tomato;
+}
+
+.loginform > input{
+    background-color: #273746;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    cursor: pointer;
+    width: 350px;
+    transition: all 500ms;
+    
+}
+
+.loginform > input:hover{
+    transform: scale(1.05);
+    background-color: tomato;
+}
+
+/* toggle classes starts*/
+.shiftToLeft{
+    transform: translateX(-100%);
+}
+
+.shiftToNutral{
+    transform: translateX(0%);
+}
+
+.shiftToNutralForm{
+    transform: translateX(0%) translateY(-100%);
+}
+
+.shiftToRight{
+    transform:  translateX(100%);
+}
+
+/* end toggle classes */
+
+
+.signUpName{
+    position: relative;
+    background: white;
+}
+
+/* ========================================== */
+/* ========================================== */
+
+@media screen and (max-width: 484px){
+    .loginsign-box{
+        width: 400px;
+    }
+}
+
+
+
+@media screen and (max-width: 412px){
+    .loginsign-box{
+        width: 340px;
+    }
+
+    .loginEmail, .loginPassword{
+        width: 300px;
+    }
+
+    .loginEmail input, .loginPassword input{
+        font-size: 16px;
+    }
+
+    .loginform > input{
+        width: 300px;
+    }
+
+    /* signup  */
+    .signUpName, .signUpEmail, .signUpPassword{
+        width: 300px;
+    }
+
+    .signUpName input, .signUpEmail input, .signUpPassword input{
+        font-size: 16px;
+    }
+
+    .signupForm > input{
+        width: 300px;
+    }
+
+    #registerImage{
+        width: 300px;
+    }
+
+    #registerImage img{
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 352px){
+    .loginsign-box{
+        width: 310px;
+    }
+
+    .loginEmail, .loginPassword{
+        width: 280px;
+    }
+
+    .loginEmail input, .loginPassword input{
+        font-size: 16px;
+    }
+
+    .loginform > input{
+        width: 280px;
+    }
+
+    /* signup  */
+    /* signup  */
+    .signUpName, .signUpEmail, .signUpPassword{
+        width: 280px;
+    }
+
+    .signUpName input, .signUpEmail input, .signUpPassword input{
+        font-size: 16px;
+    }
+
+    .signupForm > input{
+        width: 280px;
+    }
+    #registerImage{
+        width: 280px;
+    }
+
+}

@@ -1,0 +1,135 @@
+.admin-dashboard-confirmOrder{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    gap: 140px;
+}
+
+.admin-dashboard-orderprocess-heading h2{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vmax 0vmax;
+    color: #273746;
+    font-size: 28px;
+}
+
+.admin-dashboard-orderprocess-heading h2::before{
+    content: "";
+    position: absolute;
+    top: 40px;
+    width: 210px;
+    height: 5px;
+    transform: skew(-50deg) translateX(20%);
+    background: tomato ;
+}
+
+.admin-dashboard-process-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.myorder-details-payment-process span h2{
+    color: #273746;
+    border-bottom: 3px solid tomato;
+    width: 51%;
+    padding-bottom: 12px;
+}
+
+.admin-dashboard-process-heading h2{
+    color: #273746;
+    border-bottom: 3px solid tomato;
+    padding-bottom: 12px;
+}
+
+
+.admin-dashboard-process-categories{
+    width: 100%;
+    border-bottom: 1px solid #273746;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.admin-dashboard-process-categories select{
+    outline: none;
+    border: none;
+    color: #6f6f6f;
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 267px;
+    background-size: 26px;
+    width: 100%;
+}
+
+.admin-dashboard-process-btn{
+    background-color: #273746;
+    border-radius: 30px;
+    border:none;
+    font-size: 18px;
+    padding: 0.8vmax 4vmax;
+    width: 100%;
+    cursor: pointer;
+    margin: 1vmax 1.5vmax;
+    color: white !important;
+    transition: all 500ms;
+}
+
+.admin-dashboard-process-btn:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+}
+
+
+/*  */
+
+.admin-order-detial-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+}
+
+.admin-product-order-detail{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.admin-product-order-detail img{
+    position: relative;
+    display: flex;
+    width: 120px;
+    padding: 20px 0px;
+}
+
+
+.admin-product--order-name{
+    text-decoration: none;
+    color: #273746;
+    font-size: 18px;
+    width: 300px;
+}
+
+.admin-product--order-name:hover{
+    color: tomato;
+}
+
+
+.admin-order-detial-wrapper span b{
+    color: green;
+}

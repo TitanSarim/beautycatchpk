@@ -1,0 +1,246 @@
+.shipping-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;  
+    margin-top: 50px; 
+
+}
+
+.shipping-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.shipping-heading h2{
+    color: #273746;
+    position: relative;
+
+    border-bottom: 4px solid tomato;
+    padding-bottom: 7px;
+}
+
+
+
+.shipping-form{
+    position: relative;
+    display: flex;
+    width: 530px;
+    top: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.shipping-address, .shipping-city, .shipping-zip, .shipping-phone, .shipping-country, .shipping-state{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 13px 20px;
+    gap: 10px;
+    width: 80%;
+    height: 25px;;
+    border-bottom: .4px solid #273746;
+    transition: all 500ms;
+}
+
+.shipping-address:hover{
+    transform: scale(1.05);
+    border-bottom: .4px solid tomato;
+}
+
+.shipping-address input{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #273746;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.shipping-city:hover{
+    transform: scale(1.05);
+    border-bottom: .4px solid tomato;
+    
+}
+.shipping-city input{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #273746;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.shipping-zip:hover{
+    transform: scale(1.05);
+    border-bottom: .4px solid tomato;
+}
+.shipping-zip input{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #273746;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.shipping-phone:hover{
+    transform: scale(1.05);
+    border-bottom: .4px solid tomato;
+}
+.shipping-phone input{
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #273746;
+    font-size: 18px;
+    width: 100%;
+
+}
+/*  */
+
+.shipping-country p{
+    font-size: 18px;
+}
+
+/* btn */
+.shipping-Btn{
+    background-color: #273746;
+    border-radius: 4px;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 20px 40px;
+    width: 240px;
+    height: 60px;
+    cursor: pointer;
+    margin: 1vmax 4vmax;
+    color: white;
+    transition: all 500ms;
+}
+
+.shipping-Btn:hover{
+    background-color: tomato;
+    transform: scale(1.1);
+}
+
+
+
+/* ============================================= */
+/* -============================================ */
+
+@media screen and (max-width: 532px){
+    .shipping-form{
+        width: 480px;
+    }
+
+    .shipping-address input, .shipping-city input, .shipping-zip input, .shipping-phone input, .shipping-country input , .shipping-state input{
+        font-size: 15px;
+    }
+
+    .shipping-country select{
+        background-position: 300px;
+    }
+
+    .shipping-state select{
+        background-position: 300px;
+    }
+}
+
+
+@media screen and (max-width: 482px){
+    .shipping-form{
+        width: 455px;
+    }
+
+    .shipping-address input, .shipping-city input, .shipping-zip input, .shipping-phone input, .shipping-country input , .shipping-state input{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .shipping-form{
+        width: 400px;
+    }
+
+    .shipping-address input, .shipping-city input, .shipping-zip input, .shipping-phone input, .shipping-country input , .shipping-state input{
+        font-size: 15px;
+    }
+
+    .shipping-country select{
+        background-position: 260px;
+    }
+
+    .shipping-state select{
+        background-position: 260px;
+    }
+}
+
+@media screen and (max-width: 403px){
+    .shipping-form{
+        width: 370px;
+    }
+
+    .shipping-address input, .shipping-city input, .shipping-zip input, .shipping-phone input, .shipping-country input , .shipping-state input{
+        font-size: 15px;
+    }
+
+    .shipping-country select{
+        background-position: 230px;
+    }
+
+    .shipping-state select{
+        background-position: 230px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .shipping-form{
+        width: 350px;
+    }
+
+    .shipping-address input, .shipping-city input, .shipping-zip input, .shipping-phone input, .shipping-country input , .shipping-state input{
+        font-size: 15px;
+    }
+
+    .shipping-country select{
+        background-position: 210px;
+    }
+
+    .shipping-state select{
+        background-position: 210px;
+    }
+}
+
+@media screen and (max-width: 353px){
+    .shipping-form{
+        width: 330px;
+    }
+
+    .shipping-address input, .shipping-city input, .shipping-zip input, .shipping-phone input, .shipping-country input , .shipping-state input{
+        font-size: 15px;
+    }
+
+    .shipping-country select{
+        background-position: 200px;
+    }
+
+    .shipping-state select{
+        background-position: 200px;
+    }
+}

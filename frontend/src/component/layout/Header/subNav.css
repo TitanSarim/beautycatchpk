@@ -1,0 +1,43 @@
+.subNav-container{
+    position: relative;
+    background-color: white;
+    top: 6px;
+    height: 65px;
+    color: black;
+    margin-bottom: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subNav-categories{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    text-decoration: none;
+    color: #273746;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.subNav-categories li a{
+    color: #273746;
+    text-decoration: none;
+    transition: transform 500ms;
+}
+.subNav-categories li a:hover{
+    transform: translateY(-2px);
+    color: tomato
+}
+
+.subNav-categories li {
+    cursor: pointer;
+    transition: transform 500ms;
+}
+
+.subNav-categories li:hover{
+    transform: translateY(-2px);
+    color: tomato
+}

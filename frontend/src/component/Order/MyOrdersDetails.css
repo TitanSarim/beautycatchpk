@@ -1,0 +1,344 @@
+.greenColor{
+    color: green;
+}
+
+.myorder-details-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 120px;
+    overflow-X: hidden;
+}
+
+.myorder-details-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.myorder-details-userinfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.myorder-details-address{
+    color: #273746;
+
+}
+
+.myorder-details-address span h2{
+    position: relative;
+    margin-bottom: 30px;
+
+    border-bottom: 4px solid tomato;
+    width: 500px;
+    padding-bottom: 7px;
+}
+
+/* address */
+.myorder-details-cus-name, .myorder-details-cus-address,
+.myorder-details-cus-phone, .myorder-details-cus-city,
+.myorder-details-cus-state, .myorder-details-cus-country, 
+.myorder-details-cus-zipcode{
+    left: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.myorder-details-address > div > p{
+    font-weight: 600;
+}
+
+
+/* payment */
+.myorder-details-payment{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.myorder-details-payment span h2{
+    position: relative;
+    margin-bottom: 30px;
+
+    border-bottom: 4px solid tomato;
+    width: 500px;
+    padding-bottom: 7px;
+}
+
+
+.myorder-details-payment-status{
+    position: relative;
+    left: 30px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.myorder-details-payment-amount{
+    position: relative;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 21px;
+    color: #273746;
+}
+
+.myorder-details-payment-amount p{
+    font-weight: 600;
+}
+
+.myorder-details-status{
+    position: relative;
+    left: 30px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+/* purchased items */
+.myorder-details-items{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.myorder-details-items span h2{
+    position: relative;
+    margin-bottom: 30px;
+
+    border-bottom: 4px solid tomato;
+    width: 500px;
+    padding-bottom: 7px;
+
+}
+
+.myorder-details-itemdetails{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.myorder-details-items-info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0px;
+}
+
+.myorder-details-item-img-text{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.myorder-details-item-img-text img{
+    width: 70px;
+}
+
+.myorder-details-item-img-text a{
+    text-decoration: none;
+    color: #273746;
+    font-size: 17px;
+    width: max-content;
+    text-decoration: none !important;
+    transition: all 500ms;
+}
+
+.myorder-details-item-img-text a:hover{
+    color: tomato;
+}
+
+.myorder-details-items-price{
+    width: 100%;
+}
+
+
+
+/* ========================================== */
+/* ========================================== */
+
+
+@media screen and (max-width: 1240px){
+
+    .myorder-details-wrapper{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 910px){
+
+    .myorder-details-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .myorder-details-userinfo{
+        width: 570px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .myorder-details-payment{
+        width: 420px;
+    }
+
+    .myorder-details-items{
+        width: 570px;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+
+    .myorder-details-address span h2{
+        font-size: 20px;
+    }
+    .myorder-details-address span h2::before{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 300px;
+        height: 5px;
+        transform: skew(-50deg) translateX(20%);
+        background: #E74C3C ;
+    }
+
+}
+
+@media screen and (max-width: 570px){
+    .myorder-details-userinfo{
+        width: 500px;
+  
+    }
+
+    .myorder-details-items{
+        width: 480px;
+    }
+
+    .myorder-details-items-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 475px){
+
+    .myorder-details-wrapper{
+        width: 400px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .myorder-details-userinfo{
+        width: 400px;
+  
+    }
+
+    .myorder-details-address > div{
+        left: 0%;
+    }
+
+    .myorder-details-payment{
+        width: 400px;
+    }
+
+    .myorder-details-items{
+        width: 380px;
+        display: flex;
+    }
+    
+    .myorder-details-items-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 380px;
+        left: -35px;
+    }
+
+    .myorder-details-item-img-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myorder-details-items-price{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+
+    .myorder-details-wrapper{
+        width: 360px;
+        margin: 0%;
+        display: flex;
+        justify-content: center;
+        left: 20px;
+        align-items: center;
+    }
+    .myorder-details-userinfo{
+        width: 360px;
+    }
+    .myorder-details-address span h2{
+        font-size: 18px;
+    }
+    .myorder-details-payment{
+        width: 360px;
+    }
+
+    .myorder-details-items{
+        padding: 0%;
+        width: 360px;
+        display: flex;
+        position: relative;
+    }
+
+    .myorder-details-items-info{
+        padding: 0%;
+        left: -30px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .myorder-details-address span h2{
+        font-size: 18px;
+    }
+    .myorder-details-address span h2::before{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        width: 290px;
+        height: 5px;
+        transform: skew(-50deg) translateX(20%);
+        background: #E74C3C ;
+    }
+
+    .myorder-details-item-text{
+        width: 200px;
+    }
+}

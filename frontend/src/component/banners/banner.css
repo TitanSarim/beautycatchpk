@@ -1,0 +1,42 @@
+.banner-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 1rem;
+}
+
+.banner-img-carosel{
+    width: 1200px;
+    height: 500px;
+}
+
+.banner-carosel{   
+    width: 100% !important; 
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ====== issue */
+.banner-carosel .css-ohwg9z{
+    height: max-content;
+    width: 1200px;
+}
+/* .css-1m9128y{
+    position: relative;
+    top: 730px;
+    z-index: 100;
+}    */
+
+.banner-carosel .css-1g04gm2-MuiButtonBase-root-MuiIconButton-root{
+    background-color: white !important;
+}
+
+.banner-carosel .css-i4bv87-MuiSvgIcon-root{
+    color: black;
+}
+
+.banner-carosel .css-1m9128y button {
+    color: black;
+}

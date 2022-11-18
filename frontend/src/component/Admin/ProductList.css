@@ -1,0 +1,30 @@
+.admin-dashboard-allproducts{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    margin-top: 30px;
+    color: #273746;
+}
+
+.admin-dashboard-allproducts-heading h2{
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    border-bottom: 4px solid tomato;
+    padding-bottom: 7px;
+    width: 170px;
+}
+
+
+.admin-dashboard-allproducts a{
+    color: #273746;
+    transition: all 500ms;
+}
+
+.admin-dashboard-allproducts a:hover{
+    color: tomato;
+}

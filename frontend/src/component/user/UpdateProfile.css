@@ -1,0 +1,249 @@
+.updateProfile-container{
+    position: relative;
+    width: 100vw;
+    height: 120%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    left: 0;
+}
+
+.updateProfile-box{
+    position: relative;
+    background-color: transparent;
+    width: 480px;
+    height: 600px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.updateProfile-box h2{
+    position: relative;
+    text-align: center;
+    color: #273746;
+    margin-top: 50px;
+    border-bottom: 4px solid tomato;
+    padding-bottom: 7px;
+}
+
+.updateProfileForm{
+    position: relative;
+    top: 1.5vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.updateProfileName, .updateProfileEmail{
+    position: relative;
+    color: #eb7435;
+    display: flex;
+    align-items: center;
+    border-bottom: 1.2px solid #273746;
+    justify-content: flex-center;
+    background-color: white;
+    height: 40px;
+    width: 350px;
+    gap: 12px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.updateProfileName:hover{
+    border-bottom: 1.2px solid tomato;
+    transform: scale(1.06);
+}
+
+.updateProfileName input{
+    color: #273746;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    height: 100%;
+}
+
+
+.updateProfileEmail:hover{
+    border-bottom: 1.2px solid tomato;
+    transform: scale(1.06);
+}
+.updateProfileEmail input{
+    color: #273746;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    height: 100%;
+}
+
+#updateProfileImage{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 350px;
+    color: white;
+}
+
+#updateProfileImage img{
+    width: 20%;
+    height: 56px;
+    border-radius: 100%;
+}
+
+#updateProfileImage input{
+    position: relative;
+    border-radius: 4px;
+    width: 100%;
+}
+
+#updateProfileImage > input::file-selector-button{
+    position: relative;
+    margin: 0%;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    z-index: 2;
+    height: 50px;
+    background-color: #273746;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: all 500ms;
+}
+
+#updateProfileImage > input::file-selector-button:hover{
+    transform: scale(1.05);
+    background-color: tomato;
+    color: white;
+}
+
+.updateProfileBtn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #273746;
+    width: 100%;
+    height: 55px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 19px;
+    transition: all 0.5s;
+}
+
+.updateProfileBtn:hover{
+    transform: scale(1.05);
+    background-color: tomato;
+    color: white;
+}
+
+
+/* =============================================== */
+/* ============================================== */
+@media screen and (max-width: 500px){
+
+    .updateProfile-container{
+        margin-top: 50px;
+    }
+
+    .updateProfile-box{
+        width: 400px;
+    }
+
+    .updateProfileName, .updateProfileEmail{
+        width: 280px;
+    }
+
+    .updateProfileName input, .updateProfileEmail input{
+        font-size: 15.5px;
+    }
+
+    #updateProfileImage{
+        width: 280px;
+    }
+
+    #updateProfileImage img{
+        width: 69px;
+    }
+
+    .updateProfileBtn{
+        width: 280px;
+    }
+
+}
+
+
+@media screen and (max-width: 405px){
+
+    .updateProfile-box{
+        width: 370px;
+    }
+
+    .updateProfileName, .updateProfileEmail{
+        width: 280px;
+    }
+
+    .updateProfileName input, .updateProfileEmail input{
+        font-size: 15.5px;
+    }
+
+    #updateProfileImage{
+        width: 280px;
+    }
+
+    #updateProfileImage img{
+        width: 69px;
+    }
+
+    .updateProfileBtn{
+        width: 280px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 388px){
+
+    .updateProfile-box{
+        width: 350px;
+    }
+
+    .updateProfileName, .updateProfileEmail{
+        width: 280px;
+    }
+
+    .updateProfileName input, .updateProfileEmail input{
+        font-size: 15.5px;
+    }
+
+    #updateProfileImage{
+        width: 280px;
+    }
+
+    #updateProfileImage img{
+        width: 69px;
+    }
+
+    .updateProfileBtn{
+        width: 280px;
+    }
+
+}

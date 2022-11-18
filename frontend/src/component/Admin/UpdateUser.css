@@ -1,0 +1,50 @@
+.admin-dashboard-updateUser-heading h2{
+    position: relative;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 180px;
+    border-bottom: 4px solid tomato;
+    padding-bottom: 7px;
+
+}
+
+
+.admin-dashboard-updateuser-form{
+   position: relative;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.admin-dashboard-update-user-role{
+    width: 100%;
+    border-bottom: 1px solid #273746;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.admin-dashboard-update-user-role select{
+    outline: none;
+    border: none;
+    color: #6f6f6f;
+    cursor: pointer;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    height: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 397px;
+    background-size: 26px;
+    width: 100%;
+}
