@@ -27,9 +27,11 @@
     position: relative;
     display: flex;
     margin-top: 50px;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
     text-decoration: none;
+    justify-content: center;
 }
 
 .admin-dashboard-total-amount, .admin-dashboard-total-products, .admin-dashboard-total-orders, .admin-dashboard-total-users{

@@ -8,7 +8,7 @@ import MetaData from '../layout/MetaData';
 
 
 
-
+import './UpdateProduct.css'
 
 const UpdateProduct = ({history, match}) => {
 
@@ -134,19 +134,19 @@ const UpdateProduct = ({history, match}) => {
         <div className='admin-dashboard'>
             <Sidebar/>
 
-            <div className='admin-dashboard-newproduct'>
+            <div className='admin-dashboard-updateproduct'>
 
                 <form 
                     encType='multipart/form-data'
                     onSubmit={updateProductSubmitHandler}
-                    className='admin-dashboard-newproduct-form'
+                    className='admin-dashboard-updateproduct-form'
                 >
 
-                    <div className='admin-dashboard-newproduct-heading'>
+                    <div className='admin-dashboard-updateproduct-heading'>
                         <h2>Create Product</h2>
                     </div>
 
-                    <div className='admin-dashboard-newproduct-name'>
+                    <div className='admin-dashboard-updateproduct-name'>
                         <input 
                             type="text" 
                             placeholder='Product Name'
@@ -156,7 +156,7 @@ const UpdateProduct = ({history, match}) => {
                         />
                     </div>
 
-                    <div className='admin-dashboard-newproduct-price'>
+                    <div className='admin-dashboard-updateproduct-price'>
                         <input 
                             type="number" 
                             placeholder='Product Price'
@@ -168,7 +168,7 @@ const UpdateProduct = ({history, match}) => {
 
 
                     {/*Description Starts  */}
-                    <div className='admin-dashboard-newproduct-description'>
+                    <div className='admin-dashboard-updateproduct-description'>
 
                         <textarea 
                             cols="30" 
@@ -181,7 +181,7 @@ const UpdateProduct = ({history, match}) => {
                     </div>
 
                     
-                     <div className='admin-dashboard-newproduct-description'>
+                     <div className='admin-dashboard-updateproduct-description'>
 
                         <textarea 
                             cols="30" 
@@ -193,7 +193,7 @@ const UpdateProduct = ({history, match}) => {
                         </textarea>
                     </div>
 
-                     <div className='admin-dashboard-newproduct-description'>
+                     <div className='admin-dashboard-updateproduct-description'>
 
                         <textarea 
                             cols="30" 
@@ -205,7 +205,7 @@ const UpdateProduct = ({history, match}) => {
                         </textarea>
                     </div>
 
-                     <div className='admin-dashboard-newproduct-description'>
+                     <div className='admin-dashboard-updateproduct-description'>
 
                         <textarea 
                             cols="30" 
@@ -219,7 +219,7 @@ const UpdateProduct = ({history, match}) => {
 
 
                     {/* Description Ends */}
-                    <div className='admin-dashboard-newproduct-categories'>
+                    <div className='admin-dashboard-updateproduct-categories'>
                         <select value={category} onChange={(e) => setCategory(e.target.value)}>
                             <option value="">Choose Category</option>
                             {categories.map((cate) =>(
@@ -230,7 +230,7 @@ const UpdateProduct = ({history, match}) => {
                         </select>
                     </div>
 
-                    <div className='admin-dashboard-newproduct-stock'>
+                    <div className='admin-dashboard-updateproduct-stock'>
                         <input 
                                 type="number" 
                                 placeholder='Stock'
@@ -268,7 +268,7 @@ const UpdateProduct = ({history, match}) => {
 
                     <button 
                         id="createProductBtn"
-                        className='admin-dashboard-newproduct-btn'
+                        className='admin-dashboard-updateproduct-btn'
                         disabled={loading ? true : false}
                     >
                         Update Product

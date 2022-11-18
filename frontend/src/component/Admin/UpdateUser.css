@@ -13,7 +13,7 @@
 
 .admin-dashboard-updateuser-form{
    position: relative;
-    width: 30%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@
 
 
 .admin-dashboard-update-user-role{
-    width: 100%;
+    width: 40%;
     border-bottom: 1px solid #273746;
     padding: 13px 20px;
     display: flex;
@@ -44,7 +44,86 @@
     appearance: none;
     background-image: url(../../images/arrow.svg);
     background-repeat: no-repeat;
-    background-position: 397px;
+    background-position: 340px;
     background-size: 26px;
     width: 100%;
+}
+
+.admin-dashboard-newuser-btn{
+    background-color: #273746;
+    border-radius: 30px;
+    border:none;
+    font-size: 18px;
+    padding: 0.8vmax 4vmax;
+    width: 40% !important;
+    cursor: pointer;
+    margin: 1vmax 4vmax;
+    color: white !important;
+    transition: all 500ms;
+}
+
+.admin-dashboard-newuser-btn:hover{
+    background-color: tomato;
+    transform: scale(1.06);
+}
+
+@media screen and (max-width: 1355px) {
+
+    .admin-dashboard-updateuser-form{
+
+        width: 100%;
+
+    }
+
+    .admin-dashboard-update-user-role{
+        width: 42%;
+    }
+    .admin-dashboard-update-user-role select
+
+    .admin-dashboard-newuser-btn{
+
+    }
+
+}
+
+@media screen and (max-width: 1265px) {
+
+    .admin-dashboard-updateuser-form{
+
+        width: 100%;
+
+    }
+
+    .admin-dashboard-update-user-role{
+        width: 42%;
+    }
+    .admin-dashboard-update-user-role select{
+        background-position: 260px;
+    }
+
+    .admin-dashboard-newuser-btn{
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1045px) {
+
+    .admin-dashboard-updateuser-form{
+
+        width: 80%;
+
+    }
+
+    .admin-dashboard-update-user-role{
+        width: 71% !important;
+    }
+    .admin-dashboard-update-user-role select{
+        background-position: 260px;
+    }
+
+    .admin-dashboard-newuser-btn{
+        height: 50px;
+    }
+
 }

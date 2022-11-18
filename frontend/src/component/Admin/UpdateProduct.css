@@ -1,11 +1,11 @@
-.admin-dashboard-newproduct{
+.admin-dashboard-updateproduct{
     position: relative;
     display: flex;
     justify-content: center;
     margin-top: 60px;
 }
 
-.admin-dashboard-newproduct-form{
+.admin-dashboard-updateproduct-form{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -14,19 +14,19 @@
     color:  #273746;
 }
 
-.admin-dashboard-newproduct-heading{
+.admin-dashboard-updateproduct-heading{
     position: relative;
     margin-bottom: 40px;
 
 }
 
-.admin-dashboard-newproduct-heading h2{
+.admin-dashboard-updateproduct-heading h2{
     border-bottom: 4px solid tomato;
     padding-bottom: 7px;
 }
 
 
-.admin-dashboard-newproduct-name, .admin-dashboard-newproduct-price, .admin-dashboard-newproduct-stock{
+.admin-dashboard-updateproduct-name, .admin-dashboard-updateproduct-price, .admin-dashboard-updateproduct-stock{
     position: relative;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@
     transition: all 400ms;
 }
 
-.admin-dashboard-newproduct-name input{
+.admin-dashboard-updateproduct-name input{
     border: none;
     outline: none;
     font-size: 17px;
@@ -49,7 +49,7 @@
     font-weight: 500;
 }
 
-.admin-dashboard-newproduct-name:hover{
+.admin-dashboard-updateproduct-name:hover{
     border-bottom: 2px solid tomato;
     transform: scale(1.06);
 }
@@ -57,7 +57,7 @@
 
 
 
-.admin-dashboard-newproduct-price input{
+.admin-dashboard-updateproduct-price input{
     border: none;
     outline: none;
     font-size: 17px;
@@ -65,7 +65,7 @@
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 500;
 }
-.admin-dashboard-newproduct-price:hover{
+.admin-dashboard-updateproduct-price:hover{
     border-bottom: 2px solid tomato;
     transform: scale(1.06);
 }
@@ -73,7 +73,7 @@
 
 
 
-.admin-dashboard-newproduct-stock input{
+.admin-dashboard-updateproduct-stock input{
     border: none;
     outline: none;
     font-size: 17px;
@@ -82,13 +82,13 @@
     font-weight: 500;
 }
 
-.admin-dashboard-newproduct-stock:hover{
+.admin-dashboard-updateproduct-stock:hover{
     border-bottom: 2px solid tomato;
     transform: scale(1.06);
 } 
 
 
-.admin-dashboard-newproduct-description{
+.admin-dashboard-updateproduct-description{
     position: relative;
     width: 40%;
     display: flex;
@@ -98,7 +98,7 @@
     border-bottom: 1px solid #273746;
 }
 
-.admin-dashboard-newproduct-description textarea{
+.admin-dashboard-updateproduct-description textarea{
     width: 100%;
     height: 130px;
     outline: none;
@@ -108,7 +108,7 @@
     color: #273746;
 }
 
-.admin-dashboard-newproduct-categories{
+.admin-dashboard-updateproduct-categories{
     width: 40%;
     border-bottom: 1px solid #273746;
     padding: 13px 20px;
@@ -116,7 +116,7 @@
     align-items: center;
     gap: 8px;
 }
-.admin-dashboard-newproduct-categories select{
+.admin-dashboard-updateproduct-categories select{
     outline: none;
     border: none;
     color: #6f6f6f;
@@ -180,7 +180,7 @@
     height: 40px;
 }
 
-.admin-dashboard-newproduct-btn{
+.admin-dashboard-updateproduct-btn{
     background-color: #273746;
     border-radius: 30px;
     border:none;
@@ -193,21 +193,21 @@
     transition: all 500ms;
 }
 
-.admin-dashboard-newproduct-btn:hover{
+.admin-dashboard-updateproduct-btn:hover{
     background-color: tomato;
     transform: scale(1.06);
 }
 
 @media screen and (max-width: 1055px) {
-    .admin-dashboard-newproduct-name, .admin-dashboard-newproduct-price, .admin-dashboard-newproduct-stock{
+    .admin-dashboard-updateproduct-name, .admin-dashboard-updateproduct-price, .admin-dashboard-updateproduct-stock{
         width: 70% !important;
     }
 
-    .admin-dashboard-newproduct-description{
+    .admin-dashboard-updateproduct-description{
         width: 70% !important;
     }
 
-    .admin-dashboard-newproduct-categories{
+    .admin-dashboard-updateproduct-categories{
         width: 70% !important;
     }
 
@@ -215,7 +215,7 @@
         width: 70% !important;
     }
 
-    .admin-dashboard-newproduct-btn{
+    .admin-dashboard-updateproduct-btn{
         width: 30% !important;
     }
 }

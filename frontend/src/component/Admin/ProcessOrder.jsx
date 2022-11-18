@@ -75,7 +75,7 @@ const ProcessOrder = ({history, match}) => {
 
             <div className='confirm-address-container'>
                 <div className='confirm-address-wrapper'>
-                    <h2 className='confirm-shipping-info-heading'>Shipping Info</h2>
+                    <h2 className='admin_confirm-shipping-info-heading'>Shipping Info</h2>
 
                     <div className='confirm-address-name'>
                         <p>Name:</p>

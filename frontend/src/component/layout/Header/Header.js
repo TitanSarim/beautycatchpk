@@ -27,7 +27,7 @@ const MenuLabel = styled.label`
 
   @media (max-width: 685px) {
     right: .6rem;
-    top: 0rem;
+    top: 1.4rem;
     background-color: white;
     box-shadow: none;
     height: 5rem;

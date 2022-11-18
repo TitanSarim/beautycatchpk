@@ -30,7 +30,7 @@ const Sidebar = () => {
               </p>
           </Link>
 
-          <Link>
+          <Link to="#">
               <TreeView
                 defaultCollapseIcon={<IoIosArrowDown />}
                 defaultExpandIcon={<MdArrowForwardIos/>}

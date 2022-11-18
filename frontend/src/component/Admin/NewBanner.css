@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     margin-top: 0px;
+    width: 100%;
 }
 
 .admin-dashboard-newproduct-form{
@@ -10,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 30% !important;
     color:  #273746;
     margin-top: 50px;
 }
@@ -56,14 +57,14 @@
 }
 
 
-#createProductFormFile{
+#createBannerFormFile{
     position: relative;
     width: 100%;
     padding: 13px 20px;
     border-bottom: 1px solid #273746;
 }
 
-#createProductFormFile > input::file-selector-button{
+#createBannerFormFile > input::file-selector-button{
     cursor: pointer;
     background-color: #273746;
     color: white;
@@ -75,11 +76,11 @@
     transition: all 500ms;
 }
 
-#createProductFormFile > input::file-selector-button:hover{
+#createBannerFormFile > input::file-selector-button:hover{
     background-color: #E74C3C;
 }
 
-#createProductFormImage{
+#createbannerFormImage{
     position: relative;
     display: flex;
     flex-direction: row;
@@ -91,30 +92,45 @@
 
 
 
-#createProductFormImage img{
+#createbannerFormImage img{
     width: 20%;
     padding: 0px 4px;
 }
 
-#oldProductFormImage{
-    background-color: black;
-    height: 40px;
-}
 
-.admin-dashboard-newproduct-btn{
+.admin-dashboard-newbanner-btn{
     background-color: #273746;
     border-radius: 30px;
     border:none;
     font-size: 18px;
     padding: 0.8vmax 4vmax;
-    width: 100%;
+    width: 50%;
+    text-align: center;
     cursor: pointer;
     margin: 1vmax 4vmax;
     color: white !important;
     transition: all 500ms;
 }
 
-.admin-dashboard-newproduct-btn:hover{
+.admin-dashboard-newbanner-btnadmin-dashboard-newproduct-btn:hover{
     background-color: tomato;
     transform: scale(1.06);
+}
+
+
+
+@media screen and (max-width: 1400px) {
+
+    .admin-dashboard-newproduct-form{
+        width: 50% !important;
+    }
+
+}
+
+@media screen and (max-width: 965px) {
+
+    .admin-dashboard-newproduct-form{
+        width: 70% !important;
+    }
+
 }

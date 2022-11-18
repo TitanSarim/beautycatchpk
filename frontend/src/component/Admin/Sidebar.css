@@ -71,3 +71,9 @@
 .css-1g86id8-MuiTreeItem-content .MuiTreeItem-label{
     font-size: 18px !important;
 }
+
+@media screen and (max-width: 1390px) {
+    .admin-sidebar{
+        width: 300px;
+    }
+}

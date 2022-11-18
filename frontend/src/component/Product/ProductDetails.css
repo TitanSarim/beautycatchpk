@@ -409,6 +409,22 @@ input::-webkit-inner-spin-button {
 }
 
 
+@media screen and (max-width: 840px){
+    .Product-container{
+        width: 100% !important;
+        max-width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 30px 10px !important;
+    }
+
+    .detailsBlock{
+        width: 85% !important;
+    }
+}
+
 @media screen and (max-width: 695px){
 
     .carousel{
@@ -470,5 +486,10 @@ input::-webkit-inner-spin-button {
         height: auto !important;
         width: 94% !important;
 
+    }
+
+    .detailsBlock-2 h2{
+        font-size: 20px;
+        width: 320px;
     }
 }

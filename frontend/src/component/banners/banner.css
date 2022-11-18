@@ -40,3 +40,143 @@
 .banner-carosel .css-1m9128y button {
     color: black;
 }
+
+
+/* ======================================== */
+/* =======================================  */
+
+@media screen and (max-width: 1565px ) {
+
+    .banner-img-carosel{
+        width: 1000px;
+        height: 440px;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content;
+        width: 1000px;
+    }
+
+}
+
+
+@media screen and (max-width: 1330px ) {
+
+    .banner-img-carosel{
+        width: 800px;
+        height: 400px;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content;
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 940px){
+
+    .banner-img-carosel{
+        width: 800px !important;
+        height: 400px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 800px !important;
+    }
+}
+
+@media screen and (max-width: 833px){
+
+    .banner-img-carosel{
+        width: 700px !important;
+        height: 370px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 700px !important;
+    }
+}
+
+@media screen and (max-width: 719px){
+
+    .banner-img-carosel{
+        width: 600px !important;
+        height: 340px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 600px !important;
+    }
+}
+
+@media screen and (max-width: 625px){
+
+    .banner-img-carosel{
+        width: 550px !important;
+        height: 280px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 550px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 566px){
+
+    .banner-img-carosel{
+        width: 480px !important;
+        height: 240px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 480px !important;
+    }
+}
+
+
+@media screen and (max-width: 491px){
+
+    .banner-img-carosel{
+        width: 440px !important;
+        height: 240px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 440px !important;
+    }
+}
+
+@media screen and (max-width: 452px){
+
+    .banner-img-carosel{
+        width: 400px !important;
+        height: 240px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 400px !important;
+    }
+}
+
+@media screen and (max-width: 405px){
+
+    .banner-img-carosel{
+        width: 360px !important;
+        height: 220px !important;
+    }
+
+    .banner-carosel .css-ohwg9z{
+        height: max-content !important;
+        width: 360px !important;
+    }
+}

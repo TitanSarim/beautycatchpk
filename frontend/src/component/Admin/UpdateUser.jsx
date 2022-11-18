@@ -146,7 +146,7 @@ const UpdateUser = ({history, match}) => {
         
                             <button 
                                 id="createProductBtn"
-                                className='admin-dashboard-newproduct-btn'
+                                className='admin-dashboard-newuser-btn'
                                 disabled={updateLoading ? true : false || role === "" ? true : false} 
                             >
                                 Update User

@@ -15,7 +15,8 @@
     justify-content: center;
     align-content: center;
     margin: auto;
-    padding-bottom: 30px;
+    margin-top: 120px !important;
+    padding-bottom: 250px;
 }
 
 .admin-dashboard-product-reviews-heading h2{
@@ -81,4 +82,14 @@
     position: relative;
     bottom: 200px;
     text-align: center;
+}
+
+@media screen and (max-width: 1110px) {
+    .admin-dashboard-product-reviews-form{
+        width: 70% !important;
+    }
+
+    .admin-dashboard-product-reviews-btn{
+        height: 50px;
+    }
 }

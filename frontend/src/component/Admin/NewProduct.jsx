@@ -44,14 +44,7 @@ const NewProduct = ({history}) => {
     const [imagesPreview, setImagesPreview] = useState([]);
 
 
-    // const categories =[
-    //     "2 Piece",
-    //     "3 Piece",
-    //     "Towels",
-    //     "Shirts",
-    //     "Genes",
-    //     "Tops",
-    // ]
+  
 
     useEffect(() =>{
         if(error){

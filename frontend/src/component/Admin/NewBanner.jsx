@@ -121,7 +121,7 @@ const NewBanner = ({history}) => {
                 
                 </div>
 
-                <div id="createProductFormFile">
+                <div id="createBannerFormFile">
                     <input 
                         type="file" 
                         name="products"
@@ -130,7 +130,7 @@ const NewBanner = ({history}) => {
                     />
                 </div>
 
-                <div id="createProductFormImage">
+                <div id="createbannerFormImage">
                     {imagesPreview.map((image, index) => (
                         <img key={index} alt="Product Preview" src={image} />
                     ))}
@@ -138,7 +138,7 @@ const NewBanner = ({history}) => {
 
                 <button 
                     id="createProductBtn"
-                    className='admin-dashboard-newproduct-btn'
+                    className='admin-dashboard-newbanner-btn'
                     disabled={loading ? true : false}
                 >
                     Create
