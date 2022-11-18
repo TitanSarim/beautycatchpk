@@ -1,5 +1,5 @@
 import React from 'react'
-import { Rating } from "@material-ui/lab";
+import { Rating } from '@mui/material';
 import profile from '../../images/profile.png'
 
 import './ProductDetails.css'

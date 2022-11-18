@@ -1,5 +1,8 @@
 import React,{Fragment} from 'react'
-import { Typography, Stepper, StepLabel, Step } from "@material-ui/core";
+import { Typography } from '@mui/material'
+import Stepper from '@mui/material/Stepper';
+import StepLabel from '@mui/material/StepLabel';
+import Step from '@mui/material/Step';
 
 import {MdOutlineLocalShipping} from 'react-icons/md';
 import {BsCheck2All, BsBank} from 'react-icons/bs';

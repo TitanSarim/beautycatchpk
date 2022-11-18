@@ -2,7 +2,7 @@ import React,{Fragment} from 'react'
 import {useSelector, useDispatch} from 'react-redux';
 import {addItemsToCart, removeItemsToCart} from '../../actions/cartAction'
 import {MdOutlineRemoveShoppingCart} from 'react-icons/md'
-import { Typography } from "@material-ui/core";
+import { Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 
 import CartItemCard from './CartItemCard'

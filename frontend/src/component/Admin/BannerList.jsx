@@ -4,9 +4,9 @@ import {clearErrors, getAdminBanners, deleteBanner } from '../../actions/bannerA
 import { DELETE_BANNNER_REST} from '../../constants/bannerConstants'
 import { useAlert } from 'react-alert';
 import Sidebar from './Sidebar';
-import { DataGrid } from "@material-ui/data-grid";
-import { Button } from "@material-ui/core";
-import {AiOutlineDelete} from 'react-icons/ai';
+import { DataGrid } from '@mui/x-data-grid';
+import Button from '@mui/material/Button';
+import { AiOutlineDelete} from 'react-icons/ai';
 
 import Loader from '../layout/loader/Loader';
 

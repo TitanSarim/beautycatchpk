@@ -2,8 +2,8 @@ import React,{useEffect, Fragment, useState} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import Pagination from 'react-js-pagination'
 import {getProduct, clearErrors} from '../../actions/productAction';
-import Slider from "@material-ui/core/Slider";
-import Typography from "@material-ui/core/Typography";
+import { Slider } from '@mui/material';
+import Typography from '@mui/material/Typography';
 import {MdFilterList} from 'react-icons/md'
 import { useAlert } from 'react-alert';
 

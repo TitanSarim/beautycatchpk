@@ -1,12 +1,12 @@
 import React,{Fragment, useEffect} from 'react'
 import {useSelector, useDispatch} from 'react-redux';
 import { useAlert } from 'react-alert';
-import { DataGrid } from "@material-ui/data-grid";
+import { DataGrid } from '@mui/x-data-grid';
 import { clearErrors, getAllOrders, deleteOrder} from '../../actions/orderAction';
 import { Link } from 'react-router-dom';
 import MetaData from '../layout/MetaData'
 import Sidebar from './Sidebar';
-import { Button } from "@material-ui/core";
+import Button from '@mui/material/Button';
 import {AiOutlineEdit, AiOutlineDelete} from 'react-icons/ai';
 
 import './ProductList.css'

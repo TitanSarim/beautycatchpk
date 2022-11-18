@@ -8,8 +8,12 @@ import {useAlert} from 'react-alert'
 import MetaData from '../layout/MetaData.js';
 import {addItemsToCart} from '../../actions/cartAction'
 
-import {Dialog, DialogActions, DialogContent, DialogTitle, Button} from "@material-ui/core";
-import { Rating } from "@material-ui/lab";
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogTitle from '@mui/material/DialogTitle';
+import Button from '@mui/material/Button';
+import { Rating } from '@mui/material';
 
 import './ProductDetails.css'
 import { NEW_REVIEW_REST } from '../../constants/productConstants.js';

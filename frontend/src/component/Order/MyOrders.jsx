@@ -1,6 +1,6 @@
 import React,{Fragment, useEffect} from 'react'
 import { useSelector, useDispatch} from 'react-redux';
-import { DataGrid } from "@material-ui/data-grid";
+import { DataGrid } from '@mui/x-data-grid';
 import Loader from '../layout/loader/Loader';
 import MetaData from '../layout/MetaData'
 import { Link } from 'react-router-dom';

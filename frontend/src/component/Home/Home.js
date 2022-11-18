@@ -2,7 +2,7 @@ import React,{useEffect, Fragment, useState} from 'react';
 import {useSelector, useDispatch} from 'react-redux';
 import {getProduct, clearErrors} from '../../actions/productAction';
 import Banners from '../banners/Banners'
-import { Typography } from '@material-ui/core';
+import Typography from '@mui/material/Typography';
 import { Link } from 'react-router-dom';
 import { useAlert } from 'react-alert';
 

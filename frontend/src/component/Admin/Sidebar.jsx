@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from '../../images/logo.png'
 import { Link } from 'react-router-dom'
-import { TreeView, TreeItem } from "@material-ui/lab";
+import TreeView from '@mui/lab/TreeView';
+import TreeItem from '@mui/lab/TreeItem';
 
 import {MdArrowForwardIos, MdAdd, MdDashboard, MdOutlineRateReview} from 'react-icons/md'
 import {IoIosArrowDown} from 'react-icons/io';

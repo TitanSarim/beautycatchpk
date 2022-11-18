@@ -1,13 +1,13 @@
 import React,{Fragment, useState} from 'react'
-import { SpeedDial, SpeedDialAction } from "@material-ui/lab";
+import {SpeedDial, SpeedDialAction} from '@mui/material';
 import {useHistory} from 'react-router-dom';
 
-import DashboardIcon from "@material-ui/icons/Dashboard";
-import PersonIcon from "@material-ui/icons/Person";
-import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import ListAltIcon from "@material-ui/icons/ListAlt";
-import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
-import Backdrop from "@material-ui/core/Backdrop";
+import DashboardRoundedIcon from '@mui/icons-material/DashboardRounded';
+import PersonIcon from '@mui/icons-material/Person';
+import LogoutIcon from '@mui/icons-material/Logout';
+import ListAltIcon from '@mui/icons-material/ListAlt';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import Backdrop from '@mui/material/Backdrop';
 import {useAlert} from 'react-alert';
 import {logout} from '../../../actions/userAction'
 import { useDispatch, useSelector } from 'react-redux';
@@ -30,11 +30,11 @@ const UserOptions = ({user}) => {
         {icon: <ListAltIcon/>, name: "Orders", func: orders},
         {icon: <PersonIcon/>, name: "Profile", func: account},
         {icon: <ShoppingCartOutlinedIcon style={{color: cartItems.length > 0 ? "tomato" : "unset"}}/>, name: `Cart(${cartItems.length})`, func: cart},
-        {icon: <ExitToAppIcon/>, name: "Logout", func: logourUser},
+        {icon: <LogoutIcon/>, name: "Logout", func: logourUser},
     ]
 
     if(user.role === "admin"){
-        options.unshift( {icon: <DashboardIcon/>, name: "Admin Panel", func: dashboard})
+        options.unshift( {icon: <DashboardRoundedIcon/>, name: "Admin Panel", func: dashboard})
     }
 
     function dashboard(){
