@@ -17,18 +17,17 @@ const ConfirmOrder = ({history}) => {
         (acc, item) => acc + item.quantity * item.price,
         0
       );
+      
 
-    const shippingCharges = 15;
+    let shippingCharges = `${subtotal >= 3000 ? '0' : '250'}`;
 
-    const tax = subtotal * 0.15;
-
-    const totalPrice = subtotal + tax + shippingCharges;
+    const totalPrice = subtotal + Number(shippingCharges);
 
     const proceedToPaayment = () => {
         const data = {
             subtotal,
             shippingCharges,
-            tax,
+            // tax,
             totalPrice,
         };
 
@@ -133,9 +132,8 @@ const ConfirmOrder = ({history}) => {
                                 <span>{shippingCharges} RS</span>
                             </div>
 
-                            <div className='confirm-order-summary-tax'>
-                                <p>Tax:</p>
-                                <span>{tax} RS</span>
+                            <div className='freeshipping'>
+                                <p className='freeshipping'>If order is greater then 3000 RS, The shipping will be free</p>
                             </div>
 
                         </div>

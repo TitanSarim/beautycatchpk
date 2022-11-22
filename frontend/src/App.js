@@ -43,6 +43,11 @@ import Search from './component/Product/Search';
 import LoginSignUp from './component/user/LoginSignUp';
 import store from './store'
 
+
+import About from './component/infopages/About';
+import Contact from './component/infopages/Contact';
+import Privacy from './component/infopages/Privacy';
+
 import NotFound from './component/Not Found/NotFound';
 
 
@@ -90,6 +95,9 @@ function App() {
         <ProdectedRoute exact path="/shipping" component={Shipping}/>
 
 
+        <Route exact path="/aboutus" component={About}/>
+        <Route exact path="/Contactus" component={Contact}/>
+        <Route exact path="/privacy" component={Privacy}/>
         
         
         <ProdectedRoute exact path="/success" component={Success}/>

@@ -59,7 +59,7 @@ const Home = ({match}) => {
         {loading ? <Loader/> : 
             <Fragment>
 
-            <MetaData title="Ecommerce"/>
+            <MetaData title="BeautyCatch"/>
     
             <div className='home-hero'>
 

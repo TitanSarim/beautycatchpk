@@ -237,16 +237,10 @@
     font-weight: 600;
 }
 
-.confirm-order-summary-tax{
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border-bottom: 2px solid #273746;
-}
-
-.confirm-order-summary-tax p{
-    font-weight: 600;
+.freeshipping{
+    width: 300px;
+    color: tomato;
+    font-weight: 500;
 }
 
 .confirm-order-summary-totalprice{

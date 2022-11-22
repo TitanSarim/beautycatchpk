@@ -1,9 +1,8 @@
-import React,{Fragment, useEffect, useRef} from 'react'
+import React,{Fragment, useEffect} from 'react'
 import CheckoutSteps from './CheckoutSteps';
 import MetaData from '../layout/MetaData'
 import { useAlert } from 'react-alert';
 import {useSelector, useDispatch} from 'react-redux';
-import axios from 'axios';
 
 
 import {createOrder, clearErrors} from '../../actions/orderAction'
@@ -27,18 +26,14 @@ const Payment = ({history}) => {
 
     const orderInfo= JSON.parse(sessionStorage.getItem("orderInfo"));
 
-    // payment data
-
-    const paymentData = {
-        amount: Math.round(orderInfo.totalPrice * 100),  
-    };
+  
 
     // create order for for user 
     const order = {
         shippingInfo,
         orderItems: cartItems,
         itemsPrice: orderInfo.subtotal,
-        taxPrice: orderInfo.tax,
+        // taxPrice: orderInfo.tax,
         shippingPrice: orderInfo.shippingCharges,
         totalPrice: orderInfo.totalPrice,
     }

@@ -22,8 +22,8 @@ const UpdateUserProfile= ({history}) => {
 
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
-    const [avatar, setAvatar] = useState();
-    const [avatarPreview, setAvatarPreview] = useState("/profile.png");
+    // const [avatar, setAvatar] = useState();
+    // const [avatarPreview, setAvatarPreview] = useState("/profile.png");
 
     // updateProfile function
     const updateProfileSubmit = (e) =>{
@@ -33,32 +33,32 @@ const UpdateUserProfile= ({history}) => {
 
         myForm.set("name", name);
         myForm.set("email", email);
-        myForm.set("avatar", avatar);
+        // myForm.set("avatar", avatar);
         
         dispatch(updateProfile(myForm))
     }
 
-    const updateProfileDataChange = (e) => {
+    // const updateProfileDataChange = (e) => {
             
-            // image uplaod fucntion
-            const reader = new FileReader();
+    //         // image uplaod fucntion
+    //         const reader = new FileReader();
 
-            reader.onload = () => {
-                if(reader.readyState === 2){
-                    setAvatarPreview(reader.result);
-                    setAvatar(reader.result);
-                }
-            };
+    //         reader.onload = () => {
+    //             if(reader.readyState === 2){
+    //                 setAvatarPreview(reader.result);
+    //                 setAvatar(reader.result);
+    //             }
+    //         };
 
-            reader.readAsDataURL(e.target.files[0]);
-        }
+    //         reader.readAsDataURL(e.target.files[0]);
+    //     }
 
     useEffect(() =>{
 
         if(user){
             setName(user.name);
             setEmail(user.email);
-            setAvatarPreview(user.avatar.url);
+            // setAvatarPreview(user.avatar.url);
         }
 
         if(error){
@@ -124,13 +124,13 @@ const UpdateUserProfile= ({history}) => {
                                     
     
                                     <div id="updateProfileImage">
-                                        <img src={avatarPreview} alt="Avatar Preview" />
-                                        <input 
+                                        <img src={"/profile.png"} alt="Avatar Preview" />
+                                        {/* <input 
                                             type="file"
                                             name="avatar"
                                             accept="image"
                                             onChange={updateProfileDataChange} 
-                                        />
+                                        /> */}
                                     </div>
     
                                     <input 

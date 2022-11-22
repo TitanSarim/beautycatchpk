@@ -119,7 +119,7 @@ const ProductDetails = ({match}) => {
 
         <Fragment >
 
-        <MetaData title={`${product.name} --ECOMMERCE`}/>
+        <MetaData title={`${product.name} -- BeautyCatch`}/>
 
         <div className="Product-container">
             

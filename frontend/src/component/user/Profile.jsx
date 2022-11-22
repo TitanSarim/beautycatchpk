@@ -32,7 +32,7 @@ const Profile = ({history}) => {
                 <div className='profile-container'>
                     <div className='profile-img'>
                         <h1>My Profile</h1>
-                        <img src={user.avatar.url} alt={user.name} />
+                        <img src={"/profile.png"} alt={user.name} />
                         <Link to="/me/update" className='edit-profile'>Edit Profile</Link>
                     </div>
         

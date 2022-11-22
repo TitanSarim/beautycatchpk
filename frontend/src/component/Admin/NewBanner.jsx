@@ -101,7 +101,7 @@ const NewBanner = ({history}) => {
             <form 
                 encType='multipart/form-data'
                 onSubmit={createBannerSubmitHandler}
-                className='admin-dashboard-newproduct-form'
+                className='admin-dashboard-newbanner-form'
             >
 
             <div className='admin-dashboard-newproduct-heading'>

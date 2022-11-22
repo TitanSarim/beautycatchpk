@@ -34,8 +34,8 @@ const LoginSignUp = ({history,location}) => {
 
     const {name, email, password} = user;
 
-    const [avatar, setAvatar] = useState();
-    const [avatarPreview, setAvatarPreview] = useState("/profile.png");
+    // const [avatar, setAvatar] = useState("/profile.png");
+    // const [avatarPreview, setAvatarPreview] = useState("/profile.png");
 
     // login function
     const loginSubmit = (e) => {
@@ -52,7 +52,7 @@ const LoginSignUp = ({history,location}) => {
         myForm.set("name", name);
         myForm.set("email", email.toLowerCase());
         myForm.set("password", password);
-        myForm.set("avatar", avatar);
+        // myForm.set("avatar", avatar);
         
         dispatch(userRegistration(myForm))
     }
@@ -61,16 +61,16 @@ const LoginSignUp = ({history,location}) => {
         if(e.target.name === "avatar"){
             
             // image uplaod fucntion
-            const reader = new FileReader();
+            // const reader = new FileReader();
 
-            reader.onload = () => {
-                if(reader.readyState === 2){
-                    setAvatarPreview(reader.result);
-                    setAvatar(reader.result);
-                }
-            };
+            // reader.onload = () => {
+            //     if(reader.readyState === 2){
+            //         setAvatarPreview(reader.result);
+            //         setAvatar(reader.result);
+            //     }
+            // };
 
-            reader.readAsDataURL(e.target.files[0]);
+            // reader.readAsDataURL(e.target.files[0]);
         }else{
             setUser({...user, [e.target.name]: e.target.value})
         }
@@ -219,13 +219,14 @@ const LoginSignUp = ({history,location}) => {
                             </div>
 
                             <div id="registerImage">
-                                <img src={avatarPreview} alt="Avatar Preview" />
-                                <input 
+                                <img src={"/profile.png"} alt="Avatar Preview" />
+                                {/* <input 
                                     type="file"
                                     name="avatar"
                                     accept="image"
-                                    onChange={registerDataChange} 
-                                />
+                                    onChange={registerDataChange}
+                                    // defaultValue={"/profile.png"}
+                                /> */}
                             </div>
 
                             <input 

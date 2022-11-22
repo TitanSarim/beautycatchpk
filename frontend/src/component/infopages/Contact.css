@@ -1,0 +1,135 @@
+.contact-contianer{
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactus-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c1c;
+    height: 100%;
+    width: 50%;
+    padding: 20px 30px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    gap: 30px;
+    color: white;
+  }
+  
+  .contactus-form form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contactus-form form input{
+    background-color: #1c1c1c;
+    outline: none !important;
+    color: white;
+    border: none;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 500ms;
+  }
+  
+  .contactus-form form input:hover{
+    transform: scale(1.06);
+    border-bottom: 2px solid tomato;
+  }
+  
+  .contactus-form form textarea{
+    background-color: #1c1c1c;
+    outline: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    padding: 10px;
+    font-size: 16px;
+    min-height: 100px;
+    width: 80%;
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .submitbtn{
+    position: relative;
+    border: none !important;
+    background-color: orange!important;
+    width: 40% !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+    font-size: 20px !important;
+    padding: 14px 20px !important;
+  
+  }
+  
+  
+  
+  .contactus-address{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    width: 50%;
+    background-color: #131313;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: white;
+  }
+  
+  .contactus-address p{
+    color: #c1c1c1;
+  }
+  
+  .contactus-address-info ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .contactus-address-info ul li{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  
+  .address-icons{
+    position: relative;
+    display: flex;
+    top: -16px;
+    background-color: #2b2b2b;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  
+  
+  .contactus-address-info ul li span{
+    font-size: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contactus-address-info ul li span p{
+    font-size: 15px;
+  }
+  

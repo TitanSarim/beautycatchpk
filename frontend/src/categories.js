@@ -1,10 +1,7 @@
 const categories =[
-    "2 Piece",
-    "3 Piece",
-    "Towels",
-    "Shirts",
-    "Genes",
-    "Tops",
+    "Face Washs",
+    "Ficials",
+    "Serums"
 ]
 
 export default categories

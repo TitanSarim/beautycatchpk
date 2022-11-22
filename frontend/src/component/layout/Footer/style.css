@@ -103,7 +103,12 @@
     transition: transform 500ms;
 }
 
-.socail-icons span:hover{
+.socail-icons span a{
+    color: rgb(65, 65, 65);
+    transition: transform 500ms;
+}
+
+.socail-icons span a:hover{
     color: #2471A3 ;
     transform: translateY(-2px);
 }
@@ -137,6 +142,12 @@
     transition: transform 500ms;
 }
 
+.customer-care li p a{
+    text-decoration: none;
+    color: #212F3D ;
+    transition: transform 500ms;
+}
+
 .customer-care li p:hover{
     transform: translateY(-2px);
     color: #A04000;
@@ -163,10 +174,16 @@
 
 .information li p{
     cursor: pointer;
+    
+}
+
+.information li p a{
+    text-decoration: none;
+    color: #212F3D ;
     transition: transform 500ms;
 }
 
-.information li p:hover{
+.information li p a:hover{
     transform: translateY(-2px);
     color: #A04000;
 }

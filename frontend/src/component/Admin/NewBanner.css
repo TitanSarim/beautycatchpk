@@ -6,7 +6,7 @@
     width: 100%;
 }
 
-.admin-dashboard-newproduct-form{
+.admin-dashboard-newbanner-form{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -122,10 +122,11 @@
 @media screen and (max-width: 1400px) {
 
     .admin-dashboard-newproduct-form{
-        width: 50% !important;
+        width: 100% !important;
     }
 
 }
+
 
 @media screen and (max-width: 965px) {
 

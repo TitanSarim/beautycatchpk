@@ -1,0 +1,25 @@
+.privacy-policy-container{
+    position: relative;
+    margin: auto;
+    margin-top: 7rem;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 20px 30px;
+    color: white;
+    margin-bottom: 80px;
+  }
+  
+  .privacy-policy-content{
+    position: relative;
+    width: 1000px;
+    left: 40px;
+  }
+  
+  .privacy-policy-content p{
+    color: #ddd;
+  }
+  

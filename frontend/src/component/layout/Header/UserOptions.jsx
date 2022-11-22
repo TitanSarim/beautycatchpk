@@ -55,6 +55,7 @@ const UserOptions = ({user}) => {
 
     function logourUser(){
         dispatch(logout());
+        history.push("/login");
         alert.success("Logout Successfully")
     }
 
@@ -73,7 +74,7 @@ const UserOptions = ({user}) => {
             icon={
                 <img
                     className='speedDialIcon'
-                    src={user.avatar.url ? user.avatar.url : "/profile.png"}
+                    src={"/profile.png"}
                     alt="Profile"
                 />
             }
